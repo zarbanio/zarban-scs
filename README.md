@@ -1,6 +1,19 @@
 # Zarban Stable Coin System Contracts
 
+This repository contains the smart contracts source code for Zarban stable coin system contracts.
 
+## Test
+1. Install [foundry](https://book.getfoundry.sh/getting-started/installation)
+
+2. Use the following command to install dependencies:
+```
+forge install foundry-rs/forge-std --no-commit
+forge install dapphub/ds-value --no-commit
+forge install makerdao/dss-test --no-commit
+```
+3. Run the tests with ```forge test```
+
+## Contracts Addresses
 | Contract Name     | Contract Address                                |
 | :---------------- | :----------------------------------------------: |
 | Deployment        | [`0x7569D671D95b6215203f091FeBEa65e1369c5037`](https://arbiscan.io/address/0x7569D671D95b6215203f091FeBEa65e1369c5037#code) |
